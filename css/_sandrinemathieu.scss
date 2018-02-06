@@ -45,7 +45,7 @@ a:active {
 
     li {
       height: 4rem;
-      @include font(1.125rem, 300, 4rem, #fff);
+      @include font(1.5rem, 600, 4rem, #fff);
 
       a {
         color: #fff;
@@ -73,6 +73,7 @@ header {
     .logo {
       h1 {
         @include font(2rem, 700, 2rem, #fff);
+        margin-right: 10%;
 
         span {
           font-weight: 400;
@@ -85,7 +86,7 @@ header {
       }
 
       h2 {
-        @include font(.875rem, 300, .875rem, #f21d88);
+        @include font(.875rem, 300, .875rem, #fff);
         opacity: .8;
         margin-top: 1.875rem;
         a{
@@ -97,7 +98,9 @@ header {
     .navbar {
       position: fixed;
       z-index:1000;
-      margin-left: 23%;
+      
+      margin-left: 12%;
+
       
 
 
@@ -106,10 +109,10 @@ header {
 
         li {
           float: left;
-          @include font(1.125rem, 600, 2.5rem, #fff);
+          @include font(1.3rem, 600, 2.5rem, #fff);
 
           + li {
-            margin-left: 3rem;
+            margin-left: 2rem;
           }
 
           a {
